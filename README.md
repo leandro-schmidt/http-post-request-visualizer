@@ -13,3 +13,5 @@ Just compile the application with maven, and run the generated jar file with:
 java -jar http-post-request-visualizer-1.0.0.jar
 
 Content of the requests received will be printed in the console window and also will be sent back to the caller.
+
+Requires Java 8.
