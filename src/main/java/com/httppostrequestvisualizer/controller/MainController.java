@@ -27,7 +27,6 @@ public class MainController {
 	 public String testeConsumoComprovante(@RequestBody String reqBody, 
 			 			 @RequestHeader HttpHeaders  headers){
 		 
-		 
 		 Boolean isJson = false;
 		 StringBuilder ret = new StringBuilder("Header info: \n");
 		 /**
@@ -49,6 +48,5 @@ public class MainController {
 		 logger.info(output);
 		 return output;
 	 }
-	 
 	 
 }
