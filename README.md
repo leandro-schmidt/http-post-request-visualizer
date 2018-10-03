@@ -4,11 +4,11 @@ Simple application to see the content of request sent via post to it.
 
 Port of the application can be configured into the src/main/resources/application.properties file.
 
-The URI to be called is /printPostReqHeadAndBody.
+The URI to be called is /printPostReqHeadAndBody
 
 # Running
 
-Just compile the application with maven, and run the generated jar file with:
+Just build the application with maven, and run the generated jar file with:
 
 java -jar http-post-request-visualizer-1.0.0.jar
 
